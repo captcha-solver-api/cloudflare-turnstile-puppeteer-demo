@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-turnstile-puppeteer-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Puppeteer demo for solving Cloudflare Turnstile with the Captcha Solver JavaScript SDK",
+  "scripts": {
+    "start": "node demo/server.js",
+    "solve": "node src/standalone.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@captcha-solver-api/javascript-sdk": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "express": "^5.1.0",
+    "puppeteer": "^25.12.0"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "license": "MIT"
+}
