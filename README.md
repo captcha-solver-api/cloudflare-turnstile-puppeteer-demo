@@ -22,7 +22,7 @@ The bundled page uses Cloudflare's public test keys and runs on `localhost`. It 
 ## Installation
 
 ```bash
-git clone git@github.com:captcha-solver-api/cloudflare-turnstile-puppeteer-demo.git
+git clone https://github.com/captcha-solver-api/cloudflare-turnstile-puppeteer-demo.git
 cd cloudflare-turnstile-puppeteer-demo
 npm install
 cp .env.example .env
