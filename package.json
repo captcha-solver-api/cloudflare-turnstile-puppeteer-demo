@@ -5,7 +5,8 @@
   "type": "module",
   "description": "Puppeteer demo for solving Cloudflare Turnstile with the Captcha Solver JavaScript SDK",
   "scripts": {
-    "start": "node demo/server.js",
+    "start": "node scripts/run-demo.js",
+    "start:server": "node demo/server.js",
     "solve": "node src/standalone.js",
     "test": "node --test"
   },

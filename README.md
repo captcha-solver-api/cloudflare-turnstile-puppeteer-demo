@@ -44,22 +44,25 @@ TARGET_URL=http://127.0.0.1:3000
 HEADLESS=true
 ```
 
-Start the local page:
+Run the demo:
 
 ```bash
 npm start
 ```
 
-Keep it running and start the Puppeteer example in another terminal:
-
-```bash
-npm run solve
-```
+The command starts the local page, waits until it is ready, runs Puppeteer, and stops the local server when the example is complete.
 
 Expected result:
 
 ```text
 { success: true, message: 'Verification passed.' }
+```
+
+To run the two processes separately for debugging, use two terminals:
+
+```bash
+npm run start:server
+npm run solve
 ```
 
 ## Test Keys
