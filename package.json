@@ -1,0 +1,19 @@
+{
+  "name": "cloudflare-turnstile-puppeteer-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Challenge demo with Puppeteer and the Captcha Solver JavaScript SDK",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --check index.js && node --check inject.js && node --check normalize-ua.js"
+  },
+  "dependencies": {
+    "@captcha-solver-api/javascript-sdk": "^1.0.0",
+    "puppeteer": "^25.12.0"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "license": "MIT"
+}
