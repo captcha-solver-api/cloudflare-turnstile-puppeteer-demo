@@ -39,6 +39,14 @@ npm start
 The script opens `TARGET_URL`, intercepts the Turnstile parameters and callback,
 sends the task through Captcha Solver, and passes the returned token to the page.
 
+## Useful Links
+
+- [Python SDK](https://github.com/captcha-solver-api/python-sdk)
+- [JavaScript SDK](https://github.com/captcha-solver-api/javascript-sdk)
+- [Python examples](https://github.com/captcha-solver-api/python-examples)
+- [JavaScript examples](https://github.com/captcha-solver-api/javascript-examples)
+- [Tencent CAPTCHA automation examples](https://github.com/captcha-solver-api/How-to-Automate-Tencent-CAPTCHA)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
