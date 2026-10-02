@@ -44,6 +44,7 @@ sends the task through Captcha Solver, and passes the returned token to the page
 - [Python SDK](https://github.com/captcha-solver-api/python-sdk)
 - [JavaScript SDK](https://github.com/captcha-solver-api/javascript-sdk)
 - [Python examples](https://github.com/captcha-solver-api/python-examples)
+- [Selenium Python examples](https://github.com/captcha-solver-api/captcha-solver-selenium-python-examples)
 - [JavaScript examples](https://github.com/captcha-solver-api/javascript-examples)
 - [Tencent CAPTCHA automation examples](https://github.com/captcha-solver-api/How-to-Automate-Tencent-CAPTCHA)
 
