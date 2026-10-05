@@ -39,6 +39,18 @@ npm start
 The script opens `TARGET_URL`, intercepts the Turnstile parameters and callback,
 sends the task through Captcha Solver, and passes the returned token to the page.
 
+## Build Faster with AI
+
+Give [`llms.txt`](https://captcha-solver.com/llms.txt) to your AI assistant when
+adapting this demo to a production page. It describes the current Turnstile task
+parameters and how the returned token is applied.
+
+```text
+Read https://captcha-solver.com/llms.txt and adapt this Puppeteer Turnstile demo
+to my target page: [describe the page and how the challenge appears].
+Keep the Captcha Solver JavaScript SDK and show how to pass the token to the page.
+```
+
 ## Useful Links
 
 - [Python SDK](https://github.com/captcha-solver-api/python-sdk)
