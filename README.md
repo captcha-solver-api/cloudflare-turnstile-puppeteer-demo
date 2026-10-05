@@ -39,21 +39,6 @@ npm start
 The script opens `TARGET_URL`, intercepts the Turnstile parameters and callback,
 sends the task through Captcha Solver, and passes the returned token to the page.
 
-## Console Output
-
-The demo logs each integration step:
-
-1. The script starts and opens the target page.
-2. Turnstile parameters are intercepted and printed.
-3. The task is sent to Captcha Solver.
-4. The complete API response, including the token, is printed.
-5. The token is passed to the page callback.
-6. `Finished` confirms that the callback accepted the token call.
-
-The final acceptance check is specific to the target page. Add the page's own
-success selector, navigation check, or server response assertion when using this
-demo in an automated test.
-
 ## Build Faster with AI
 
 Give [`llms.txt`](https://captcha-solver.com/llms.txt) to your AI assistant when
